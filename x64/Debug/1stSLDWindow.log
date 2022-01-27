@@ -1,0 +1,24 @@
+﻿  PlayerShip.cpp
+Game.obj : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z)
+PlayerShip.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Game::eventHandle(void)" (?eventHandle@Game@@QEAAXXZ)
+PlayerShip.obj : error LNK2001: unresolved external symbol SDL_PollEvent
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z)
+PlayerShip.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+Game.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl Game::render(void)" (?render@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl Game::render(void)" (?render@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl Game::render(void)" (?render@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z)
+PlayerShip.obj : error LNK2001: unresolved external symbol IMG_Load
+C:\Users\camfo\source\repos\Dev\SDL2\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\camfo\source\repos\Dev\SDL2\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\camfo\source\repos\Dev\SDL2_image\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\camfo\source\repos\1stSLDWindow\x64\Debug\1stSLDWindow.exe : fatal error LNK1120: 15 unresolved externals
