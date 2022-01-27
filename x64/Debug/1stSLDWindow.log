@@ -1,8 +1,0 @@
-﻿  main.cpp
-C:\Users\camfo\source\repos\1stSLDWindow\1stSLDWindow\Menu.cpp(350,14): warning C4804: '>': unsafe use of type 'bool' in operation
-C:\Users\camfo\source\repos\1stSLDWindow\1stSLDWindow\Menu.cpp(360,14): warning C4804: '>': unsafe use of type 'bool' in operation
-C:\Users\camfo\source\repos\1stSLDWindow\1stSLDWindow\Menu.cpp(577,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\camfo\source\repos\1stSLDWindow\1stSLDWindow\Menu.cpp(594,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\camfo\source\repos\1stSLDWindow\1stSLDWindow\Menu.cpp(619,14): warning C4018: '<': signed/unsigned mismatch
-C:\Users\camfo\source\repos\1stSLDWindow\1stSLDWindow\Menu.cpp(648): warning C4717: 'Render': recursive on all control paths, function will cause runtime stack overflow
-  1stSLDWindow.vcxproj -> C:\Users\camfo\source\repos\1stSLDWindow\Debug\1stSLDWindow.exe
